@@ -3,7 +3,7 @@ unless defined?(Devise)
 end
 require 'devise_traceable'
 
-Devise.add_module :traceable, :model => 'devise_traceable/model'
+Devise.add_module :traceable, model: 'devise_traceable/model'
 
 module DeviseTraceable
 end
